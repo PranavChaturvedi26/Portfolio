@@ -10,6 +10,7 @@ const Computers = () => {
     <mesh>
       <hemisphereLight intensity={1} groundColor="black" />
       <spotLight
+        position={[-20, 50, 10]}
         angle={0.12}
         penumbra={1}
         intensity={1}
@@ -35,7 +36,8 @@ const ComputersCanvas = () => {
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
-      <Suspense>
+      {/* <Suspense> */}
+      <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
