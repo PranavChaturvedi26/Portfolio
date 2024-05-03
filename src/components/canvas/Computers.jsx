@@ -8,7 +8,7 @@ const Computers = () => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
   return (
     <mesh>
-      <hemisphereLight intensity={1} position={[0, 1, 0]} groundColor="black" />
+      <hemisphereLight intensity={1} groundColor="black" />
       <spotLight
         angle={0.12}
         penumbra={1}
@@ -35,7 +35,7 @@ const ComputersCanvas = () => {
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
-      <Suspense fallback={<CanvasLoader />}>
+      <Suspense>
         <OrbitControls
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
