@@ -36,6 +36,9 @@ import aaryaman from "./aaryaman.jpg";
 
 import resume from "./Resume.pdf";
 
+import ISC2 from "./tech/ISC2.png";
+import CCT from "./tech/CCT.png";
+
 export {
   logo,
   backend,
@@ -69,4 +72,6 @@ export {
   todolist,
   aaryaman,
   resume,
+  ISC2,
+  CCT,
 };

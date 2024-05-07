@@ -26,6 +26,8 @@ import {
   postman,
   express,
   aaryaman,
+  ISC2,
+  CCT,
 } from "../assets";
 
 export const navLinks = [
@@ -229,4 +231,55 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const certifications = [
+  {
+    title: "Object Oriented Programming in Java",
+    type: "Practical Certification",
+    icon: java,
+    iconBg: "#050C18",
+    date: "Jun 2023",
+    points: ["Java, OOPS, Compilers, JVM, JDK, IDEs."],
+    credential: "https://coursera.org/verify/9WU5TGVDLTPE",
+  },
+  {
+    title: "Official ISC2 CC Online Self-Paced Training",
+    type: "Certification",
+    icon: ISC2,
+    iconBg: "#fff",
+    date: "Aug 2023",
+    points: [
+      "Networking, Cybersecurity, Protocols, Operating Systems, Vulnerabilities, Cyber Attacks.",
+    ],
+    credential:
+      "https://drive.google.com/file/d/11XpIuVcEHqApr0wLNCwroo4t0eqJaYPi/view?usp=drive_link",
+  },
+  {
+    title: "Developing Cloud Apps with Node.js and React",
+    type: "Practical Certification",
+    icon: nodejs,
+    iconBg: "#050C18",
+    date: "Nov 2023",
+    points: ["Rest API, Node JS, Express Js, React, Databases."],
+    credential: "https://coursera.org/verify/P2QXHGEWAY6T",
+  },
+  {
+    title: "Certified Cybersecurity Technician",
+    type: "Practical Certification",
+    icon: CCT,
+    iconBg: "#ff5722",
+    date: "April 2024",
+    points: [
+      "Cybersecurity, Network Security, Vulnerabilities, Cyber Attacks and Defence, Rthical Hacking.",
+    ],
+    credential:
+      "https://drive.google.com/file/d/14dkv0jb5zeo_9vIA5KrZKRSpw4EsOiB4/view?usp=sharing",
+  },
+];
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  certifications,
+  projects,
+};
