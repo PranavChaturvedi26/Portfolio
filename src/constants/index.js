@@ -285,7 +285,7 @@ const certifications = [
     iconBg: "#ff5722",
     date: "April 2024",
     points: [
-      "Cybersecurity, Network Security, Vulnerabilities, Cyber Attacks and Defence, Rthical Hacking.",
+      "Cybersecurity, Network Security, Vulnerabilities, Cyber Attacks and Defence, Ethical Hacking.",
     ],
     credential:
       "https://drive.google.com/file/d/14dkv0jb5zeo_9vIA5KrZKRSpw4EsOiB4/view?usp=sharing",
