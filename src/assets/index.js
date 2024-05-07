@@ -32,6 +32,8 @@ import ezeagro from "./ezeagro.jpg";
 import tshirt from "./tshirt.jpg";
 import todolist from "./todolist.jpg";
 
+import aaryaman from "./aaryaman.jpg";
+
 export {
   logo,
   backend,
@@ -63,4 +65,5 @@ export {
   ezeagro,
   tshirt,
   todolist,
+  aaryaman,
 };
