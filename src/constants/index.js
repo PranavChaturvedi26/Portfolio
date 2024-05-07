@@ -62,14 +62,14 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
   {
     name: "JavaScript",
     icon: javascript,
@@ -106,10 +106,10 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "ejs",
-    icon: ejs,
-  },
+  // {
+  //   name: "ejs",
+  //   icon: ejs,
+  // },
   // {
   //   name: "bootstrap",
   //   icon: bootstrap,
@@ -122,10 +122,10 @@ const technologies = [
     name: "sql",
     icon: sql,
   },
-  {
-    name: "vscode",
-    icon: vscode,
-  },
+  // {
+  //   name: "vscode",
+  //   icon: vscode,
+  // },
   {
     name: "postman",
     icon: postman,
