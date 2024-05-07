@@ -8,24 +8,29 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+import bootstrap from "./tech/bootstrap.png";
+import ejs from "./tech/ejs.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import java from "./tech/java.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import bash from "./tech/bash.png";
+import sql from "./tech/sql.png";
+import vscode from "./tech/vscode.png";
+import postman from "./tech/postman.png";
+import express from "./tech/express.png";
 import threejs from "./tech/threejs.svg";
 
 import paloalto from "./company/paloalto.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import ezeagro from "./ezeagro.jpg";
+import tshirt from "./tshirt.jpg";
+import todolist from "./todolist.jpg";
 
 export {
   logo,
@@ -37,20 +42,25 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
+  bootstrap,
+  ejs,
   git,
   html,
   javascript,
   mongodb,
   nodejs,
   reactjs,
-  redux,
+  java,
   tailwind,
   typescript,
+  bash,
+  sql,
+  vscode,
+  postman,
+  express,
   threejs,
   paloalto,
-  carrent,
-  jobit,
-  tripguide,
+  ezeagro,
+  tshirt,
+  todolist,
 };

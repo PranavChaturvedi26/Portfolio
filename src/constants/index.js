@@ -8,18 +8,23 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  java,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
+  ejs,
+  bootstrap,
   paloalto,
-  carrent,
-  jobit,
-  tripguide,
+  ezeagro,
+  tshirt,
+  todolist,
   threejs,
+  bash,
+  sql,
+  vscode,
+  postman,
+  express,
 } from "../assets";
 
 export const navLinks = [
@@ -78,8 +83,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Java",
+    icon: java,
   },
   {
     name: "Tailwind CSS",
@@ -102,13 +107,33 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "ejs",
+    icon: ejs,
+  },
+  // {
+  //   name: "bootstrap",
+  //   icon: bootstrap,
+  // },
+  {
+    name: "bash",
+    icon: bash,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "sql",
+    icon: sql,
   },
+  {
+    name: "vscode",
+    icon: vscode,
+  },
+  {
+    name: "postman",
+    icon: postman,
+  },
+  // {
+  //   name: "express",
+  //   icon: express,
+  // },
 ];
 
 const experiences = [
@@ -154,16 +179,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "EZE-Agro",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "EZE-Agro is a React project that displays real-time information about soil conditions in a farm. It utilizes cloud technologies and IoT to provide up-to-date data from Firebase.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
@@ -171,50 +196,52 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: ezeagro,
+    source_code_link: "https://github.com/PranavChaturvedi26/EZE-Agro",
+    live_project_link: "https://eze-agro.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "3D-Tshirt",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Create your own style with our new 3D Swag Customization App. Pick colors, add logos, and try AI designs to make your virtual swag unique. Built using React.js, Three.js, and OpenAI to show the usage of a 3D world with AI.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "framer-motion",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: tshirt,
+    source_code_link: "https://github.com/PranavChaturvedi26/3D-TShirt",
+    live_project_link: "https://3d-shirt-rho.vercel.app/",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Todolist",
+    description: "Todo List",
     tags: [
       {
-        name: "nextjs",
+        name: "Vite",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "uuid",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: todolist,
+    source_code_link: "https://github.com/PranavChaturvedi26/TodoList",
+    live_project_link: "https://todo-list-fawn-rho.vercel.app/",
   },
 ];
 
