@@ -7,6 +7,7 @@ import {
   Preload,
   useTexture,
 } from "@react-three/drei";
+import * as THREE from "three";
 
 import CanvasLoader from "../Loader";
 

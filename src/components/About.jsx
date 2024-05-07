@@ -7,6 +7,8 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
+import { resume } from "../assets";
+
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
     <motion.div
@@ -54,6 +56,84 @@ const About = () => {
         Express, Databases and Bash, along with an understanding of the Internet
         Of Things.
       </motion.p>
+
+      <div className="mt-10 flex flex-wrap gap-10">
+        <button
+          className="mt-4 px-6 py-3 text-white bg-gradient-to-r from-blue-500 to-purple-500 rounded-md shadow-md hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-50 transform transition duration-500 ease-in-out hover:scale-105 active:translate-y-1 active:shadow-none no-select"
+          style={{
+            boxShadow: "0px 5px 0px 0px rgba(0,0,0,0.6)",
+            transition: "all ease 0.1s",
+          }}
+          onMouseDown={(e) => {
+            e.currentTarget.style.transform = "translateY(5px)";
+            e.currentTarget.style.boxShadow = "0px 0px 0px 0px #a29bfe";
+          }}
+          onMouseUp={(e) => {
+            e.currentTarget.style.transform = "";
+            e.currentTarget.style.boxShadow = "0px 5px 0px 0px rgba(0,0,0,0.6)";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.transform = "";
+            e.currentTarget.style.boxShadow = "0px 5px 0px 0px rgba(0,0,0,0.6)";
+          }}
+          onClick={() => window.open(resume, "_blank")}
+        >
+          <span className="font-semibold">Resume</span>
+        </button>
+
+        <button
+          className="mt-4 px-6 py-3 text-white bg-gradient-to-r from-blue-400 to-blue-600 rounded-md shadow-md hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transform transition duration-500 ease-in-out hover:scale-105 active:translate-y-1 active:shadow-none no-select"
+          style={{
+            boxShadow: "0px 5px 0px 0px rgba(0,0,0,0.6)",
+            transition: "all ease 0.1s",
+          }}
+          onMouseDown={(e) => {
+            e.currentTarget.style.transform = "translateY(5px)";
+            e.currentTarget.style.boxShadow = "0px 0px 0px 0px #a29bfe";
+          }}
+          onMouseUp={(e) => {
+            e.currentTarget.style.transform = "";
+            e.currentTarget.style.boxShadow = "0px 5px 0px 0px rgba(0,0,0,0.6)";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.transform = "";
+            e.currentTarget.style.boxShadow = "0px 5px 0px 0px rgba(0,0,0,0.6)";
+          }}
+          onClick={() =>
+            window.open(
+              "https://www.linkedin.com/in/chaturvedipranava/",
+              "_blank"
+            )
+          }
+        >
+          <span className="font-semibold">LinkedIn</span>
+        </button>
+
+        <button
+          className="mt-4 px-6 py-3 text-white bg-gradient-to-r from-gray-600 to-gray-800 rounded-md shadow-md hover:bg-gradient-to-r hover:from-gray-700 hover:to-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-opacity-50 transform transition duration-500 ease-in-out hover:scale-105 active:translate-y-1 active:shadow-none no-select"
+          style={{
+            boxShadow: "0px 5px 0px 0px rgba(0,0,0,0.6)",
+            transition: "all ease 0.1s",
+          }}
+          onMouseDown={(e) => {
+            e.currentTarget.style.transform = "translateY(5px)";
+            e.currentTarget.style.boxShadow = "0px 0px 0px 0px #a29bfe";
+          }}
+          onMouseUp={(e) => {
+            e.currentTarget.style.transform = "";
+            e.currentTarget.style.boxShadow = "0px 5px 0px 0px rgba(0,0,0,0.6)";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.transform = "";
+            e.currentTarget.style.boxShadow = "0px 5px 0px 0px rgba(0,0,0,0.6)";
+          }}
+          onClick={() =>
+            window.open("https://github.com/PranavChaturvedi26", "_blank")
+          }
+        >
+          <span className="font-semibold">GitHub</span>
+        </button>
+      </div>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

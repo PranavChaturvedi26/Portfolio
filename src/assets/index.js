@@ -34,6 +34,8 @@ import todolist from "./todolist.jpg";
 
 import aaryaman from "./aaryaman.jpg";
 
+import resume from "./Resume.pdf";
+
 export {
   logo,
   backend,
@@ -66,4 +68,5 @@ export {
   tshirt,
   todolist,
   aaryaman,
+  resume,
 };
