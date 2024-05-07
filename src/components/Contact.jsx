@@ -7,6 +7,13 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faUser,
+  faEnvelope,
+  faComment,
+} from "@fortawesome/free-solid-svg-icons";
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -82,7 +89,10 @@ const Contact = () => {
           className="mt-12 flex flex-col gap-8"
         >
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Name</span>
+            <span className="text-white font-medium mb-4">
+              {" "}
+              <FontAwesomeIcon icon={faUser} color="#915EFF" /> &nbsp; Your Name
+            </span>
             <input
               type="text"
               name="name"
@@ -93,7 +103,10 @@ const Contact = () => {
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your email</span>
+            <span className="text-white font-medium mb-4">
+              <FontAwesomeIcon icon={faEnvelope} color="#915EFF" /> &nbsp;Your
+              email
+            </span>
             <input
               type="email"
               name="email"
@@ -104,7 +117,10 @@ const Contact = () => {
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Message</span>
+            <span className="text-white font-medium mb-4">
+              <FontAwesomeIcon icon={faComment} color="#915EFF" />
+              &nbsp;Your Message
+            </span>
             <textarea
               rows={7}
               name="message"
