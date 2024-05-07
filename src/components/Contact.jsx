@@ -27,22 +27,23 @@ const Contact = () => {
     });
   };
 
+  //IObktV8jFWycWtQy7
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_51actz5",
+        "template_f7et18y",
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Pranav Chaturvedi",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "chaturvedipranava@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "IObktV8jFWycWtQy7"
       )
       .then(
         () => {
@@ -98,7 +99,7 @@ const Contact = () => {
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your email address?"
+              placeholder="What's your web address?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
