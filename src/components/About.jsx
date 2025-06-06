@@ -1,4 +1,3 @@
-import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -45,17 +44,53 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
-      <motion.p
+      <motion.div
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] space-y-4"
       >
-        I'm Pranav Chaturvedi, a BTech Graduate in Computer Science with a keen
-        interest in Software Development, Web Development and Cybersecurity. My
-        academic journey at Noida Institute of Engineering & Technology has
-        equipped me with a strong foundation in Java, JavaScript, React, Node,
-        Express, Databases and Bash, along with an understanding of the Internet
-        Of Things.
-      </motion.p>
+        <p>
+          I’m a <strong>Software Engineer with 2 years of experience</strong> in
+          designing and developing cutting-edge, user-friendly applications and
+          scalable systems. I specialize in{" "}
+          <strong>full-stack development</strong> using React.js, Node.js,
+          Express.js, and MongoDB, along with backend-focused tools and cloud
+          services like Docker, AWS (EC2, S3, CloudFront), and Firebase.
+        </p>
+        <p>
+          My approach combines{" "}
+          <strong>robust design patterns and industry best practices</strong> to
+          deliver resilient and maintainable software.
+        </p>
+        <p>
+          I am also <strong>certified in Cybersecurity</strong> (IBM,
+          EC-Council, ISC2) and have hands-on experience using tools like Burp
+          Suite, Wireshark, and Metasploit for threat analysis and vulnerability
+          testing, developed during my internship with Palo Alto & AICTE.
+        </p>
+        <p>
+          <strong>🔧 Tech Stack Highlights</strong>
+          <br />
+          JavaScript, Java, SQL, Pl/SQL, Bash, React, Node, Express, MongoDB,
+          Firebase, Docker, Git, Postman, Three.js, AWS
+        </p>
+        <p>
+          <strong>💼 Certifications</strong>
+          <br />
+          Cybersecurity Analyst (IBM) | CCT (EC-Council) | CC (ISC2) | ReactJS
+          (Infosys) | NodeJS + DB (Coursera)
+        </p>
+        <p>
+          <strong>📅 Let’s connect:</strong>{" "}
+          <a
+            href="https://calendar.app.google/WyVe7obvwMudeg8o9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 underline"
+          >
+            Book a meeting
+          </a>
+        </p>
+      </motion.div>
 
       <div className="mt-10 flex flex-wrap gap-10">
         <button

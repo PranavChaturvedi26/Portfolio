@@ -27,10 +27,12 @@ import express from "./tech/express.png";
 import threejs from "./tech/threejs.svg";
 
 import paloalto from "./company/paloalto.png";
+import ACN from "./company/ACN.png";
 
 import ezeagro from "./ezeagro.jpg";
 import tshirt from "./tshirt.jpg";
 import todolist from "./todolist.jpg";
+import devender from "./devender.png";
 
 import aaryaman from "./aaryaman.jpg";
 
@@ -38,6 +40,7 @@ import resume from "./Resume.pdf";
 
 import ISC2 from "./tech/ISC2.png";
 import CCT from "./tech/CCT.png";
+import CEH from "./tech/CEH.png";
 
 export {
   logo,
@@ -67,11 +70,14 @@ export {
   express,
   threejs,
   paloalto,
+  ACN,
   ezeagro,
+  devender,
   tshirt,
   todolist,
   aaryaman,
   resume,
   ISC2,
   CCT,
+  CEH,
 };

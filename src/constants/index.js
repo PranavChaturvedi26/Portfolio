@@ -16,6 +16,7 @@ import {
   ejs,
   bootstrap,
   paloalto,
+  ACN,
   ezeagro,
   tshirt,
   todolist,
@@ -28,6 +29,8 @@ import {
   aaryaman,
   ISC2,
   CCT,
+  CEH,
+  devender,
 } from "../assets";
 
 export const navLinks = [
@@ -63,7 +66,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Fullstack Developer",
     icon: web,
   },
   {
@@ -157,14 +160,27 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Associate Software Engineer",
+    company_name: "Accenture",
+    icon: ACN,
+    iconBg: "#383E56",
+    date: "October 2024 - Present",
+    points: [
+      "Developed a real-time chatbot that automatically shortens URLs exceeding 50 characters, enhancing message readability and user experience in conversations.",
+      "Implemented real-time message processing using WebSockets to intercept incoming messages instantly and apply dynamic URL shortening logic.",
+      "Enabled users to retrieve original URLs using command-based inputs and integrated APIs to access previous chat history for contextual responses.",
+      "Built a fault-tolerant delivery system with acknowledgment tracking and retry logic to ensure reliable message delivery despite client-side network instability.",
+    ],
+  },
+  {
     title: "Cyber Security Intern",
-    company_name: "Palo Alto Networks (Virtual)",
+    company_name: "Palo Alto Networks",
     icon: paloalto,
     iconBg: "#383E56",
     date: "September 2023 - November 2023",
     points: [
-      "Led execution of conducted security checks with buck-security increasing security.",
-      "Identified and resolved 15 vulnerabilities, enhancing overall network resilience and data protection.",
+      "Utilized Linux-based tools including Wireshark, Burp Suite, Metasploit, Netcat etc. to identify, analyze and exploit vulnerabilities based on the OWASP Top 10 security risks.",
+      "Investigated and exploited common web application vulnerabilities, including SQL Injection, XSS, File Upload, CSRF, and Security Misconfigurations.",
     ],
   },
 ];
@@ -180,6 +196,64 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Devender",
+    description:
+      "Designed and developed a scalable MERN stack web application enabling developers to create profiles, send/accept connection requests, and collaborate—implemented a microservices-based NodeJs backend with MongoDb for robust matchmaking and user management.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: devender,
+    source_code_link: "https://github.com/PranavChaturvedi26/Devender",
+  },
+  {
+    name: "V-Chat",
+    description:
+      "Developed a real-time chat application with ReactJs frontend, Node.Js backend, and MongoDB as the primary data store.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: devender,
+    source_code_link: "https://github.com/PranavChaturvedi26/V-Chat",
+  },
   {
     name: "EZE-Agro",
     description:
@@ -248,6 +322,16 @@ const projects = [
 ];
 
 const certifications = [
+  {
+    title: "Certified Ethical Hacker (CEH)",
+    type: "Practical Certification",
+    icon: CEH,
+    iconBg: "#fff",
+    date: "May 2025",
+    points: ["Nmap, Metasploit, Burp Suite, Wireshark, Nikto, John the Ripper"],
+    credential:
+      "https://drive.google.com/file/d/1faC1b1vYhP2TMRYb8xkNtk0iZuEgod2r/view?usp=sharing",
+  },
   {
     title: "Object Oriented Programming in Java",
     type: "Practical Certification",
