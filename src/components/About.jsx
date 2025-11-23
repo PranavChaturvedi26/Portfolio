@@ -49,23 +49,51 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] space-y-4"
       >
         <p>
-          I’m a <strong>Software Engineer with 2 years of experience</strong> in
-          designing and developing cutting-edge, user-friendly applications and
-          scalable systems. I specialize in{" "}
-          <strong>full-stack development</strong> using React.js, Node.js,
-          Express.js, and MongoDB, along with backend-focused tools and cloud
-          services like Docker, AWS (EC2, S3, CloudFront), and Firebase.
+          I am a <strong>Full-Stack & Backend Developer </strong> with hands-on
+          experience building scalable systems, microservices, and real-time
+          applications used by thousands of users. I work extensively with
+          <strong>
+            Node.js, TypeScript, React.js, PostgreSQL, MongoDB, AWS, Docker,
+            Redis, WebSockets
+          </strong>
+          , and secure API development, and enjoy designing systems that are
+          robust, maintainable, and production-ready.
         </p>
         <p>
-          My approach combines{" "}
-          <strong>robust design patterns and industry best practices</strong> to
-          deliver resilient and maintainable software.
+          During my time at Unicraft, I engineered a real-time collaborative
+          code editor that served over{" "}
+          <strong>1,500+ users with smooth 150ms sync latency</strong>, complete
+          with RBAC and version control. I also designed a resume-parsing
+          microservice using <strong>Node.js + Python</strong>, achieving 95.6%
+          field-level accuracy and reducing processing latency by 42% through
+          streaming pipelines and optimized machine-learning models.
         </p>
         <p>
-          I am also <strong>certified in Cybersecurity</strong> (IBM,
-          EC-Council, ISC2) and have hands-on experience using tools like Burp
-          Suite, Wireshark, and Metasploit for threat analysis and vulnerability
-          testing, developed during my internship with Palo Alto & AICTE.
+          At Accenture, I built a{" "}
+          <strong>
+            WebSocket-based chatbot system featuring sub-100ms latency and
+            architected a fault-tolerant delivery pipeline that ensured 98%+{" "}
+          </strong>{" "}
+          successful message delivery even on unstable networks. These systems
+          strengthened my understanding of asynchronous communication,
+          distributed computing, and high-availability backend design.
+        </p>
+        <p>
+          I also bring strong cybersecurity expertise through{" "}
+          <strong>CEH v13, CCT, CC,</strong>
+          and IBM certifications, along with experience in secure coding,
+          vulnerability assessment, and cloud-native hardening. Combined with
+          solid foundations in DSA and system design, I focus on building
+          systems that are not only fast and scalable but also secure and
+          resilient.
+        </p>
+        <p>
+          I`m actively exploring opportunities as a Backend or Full-Stack
+          Developer (Node.js, TypeScript, React, AWS, Microservices).
+          <strong>
+            Immediate Joiner | Open to SDE, Backend, Full-Stack, Node.js, and
+            Platform Engineering roles.
+          </strong>
         </p>
         <p>
           <strong>🔧 Tech Stack Highlights</strong>
