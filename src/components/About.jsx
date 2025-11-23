@@ -104,11 +104,11 @@ const About = () => {
         <p>
           <strong>💼 Certifications</strong>
           <br />
-          Cybersecurity Analyst (IBM) | CCT (EC-Council) | CC (ISC2) | ReactJS
-          (Infosys) | NodeJS + DB (Coursera)
+          Cybersecurity Analyst (IBM) | CEH v13 | CCT (EC-Council) | CC (ISC2) |
+          ReactJS (Infosys) | NodeJS + DB (Coursera)
         </p>
         <p>
-          <strong>📅 Let’s connect:</strong>{" "}
+          <strong>📅 Let`s connect:</strong>{" "}
           <a
             href="https://calendar.app.google/WyVe7obvwMudeg8o9"
             target="_blank"
