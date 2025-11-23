@@ -28,6 +28,7 @@ import threejs from "./tech/threejs.svg";
 
 import paloalto from "./company/paloalto.png";
 import ACN from "./company/ACN.png";
+import Unicraft from "./company/Unicraft.jpeg";
 
 import ezeagro from "./ezeagro.jpg";
 import tshirt from "./tshirt.jpg";
@@ -71,6 +72,7 @@ export {
   threejs,
   paloalto,
   ACN,
+  Unicraft,
   ezeagro,
   devender,
   tshirt,
